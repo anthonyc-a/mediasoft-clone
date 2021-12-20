@@ -6,6 +6,9 @@
 @import "../styles/Content//Approach/Approach.css";
 @import "../styles/Content//Projects/Projects.css";
 @import "../styles/Content//Team/Team.css";
+@import "../styles/Content//Rating/Rating.css";
+@import "../styles/Content//Contact/Contact.css";
+@import "../styles/Footer//Footer.css";
 
 * {
   box-sizing: border-box;
@@ -50,6 +53,10 @@ a {
 
   &:nth-child(2) {
     padding-top: 0;
+  }
+
+  &:nth-last-child(2) {
+    margin-bottom: 200px;
   }
 }
 

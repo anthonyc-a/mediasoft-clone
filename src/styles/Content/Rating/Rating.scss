@@ -1,0 +1,46 @@
+.rating-slider {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  z-index: 1;
+
+  .rating-item {
+    position: relative;
+    width: calc(100% / 3);
+    height: 260px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid #fff;
+
+    &:nth-child(1) {
+      padding-left: 0;
+    }
+
+    .rating-icon {
+      position: absolute;
+      right: 27px;
+      bottom: 46px;
+    }
+
+    .rating-name {
+      font-size: 22px;
+      line-height: 18px;
+    }
+
+    .rating-text {
+      width: 200px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .rating-place {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+  }
+}

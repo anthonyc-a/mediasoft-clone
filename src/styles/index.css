@@ -6,6 +6,9 @@
 @import url(/Users/anthonyanimba/Documents/projects/portfolio/clones/mediasoft-clone/src/styles/Content/Approach/Approach.css);
 @import url(/Users/anthonyanimba/Documents/projects/portfolio/clones/mediasoft-clone/src/styles/Content/Projects/Projects.css);
 @import url(/Users/anthonyanimba/Documents/projects/portfolio/clones/mediasoft-clone/src/styles/Content/Team/Team.css);
+@import url(/Users/anthonyanimba/Documents/projects/portfolio/clones/mediasoft-clone/src/styles/Content/Rating/Rating.css);
+@import url(/Users/anthonyanimba/Documents/projects/portfolio/clones/mediasoft-clone/src/styles/Content/Contact/Contact.css);
+@import url(/Users/anthonyanimba/Documents/projects/portfolio/clones/mediasoft-clone/src/styles/Footer/Footer.css);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -55,6 +58,10 @@ a {
 
 .section:nth-child(2) {
   padding-top: 0;
+}
+
+.section:nth-last-child(2) {
+  margin-bottom: 200px;
 }
 
 .section-header {

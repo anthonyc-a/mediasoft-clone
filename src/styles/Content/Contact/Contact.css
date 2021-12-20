@@ -1,0 +1,74 @@
+.contact-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-panel .contact-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+}
+
+.contact-panel .contact-group .contact-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 50%;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.contact-panel .contact-group .contact-link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.contact-panel .contact-group .contact-link .contact-image {
+  margin-bottom: 20px;
+}
+
+.contact-panel .contact-group .contact-link .contact-image img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-panel .contact-group .contact-link .contact-name {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.contact-panel .contact-group .contact-link .contact-name::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0bcf6b;
+}
+/*# sourceMappingURL=Contact.css.map */

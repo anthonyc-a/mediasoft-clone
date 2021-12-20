@@ -12,7 +12,7 @@ const carouselImg1 =
 
 const Team = () => {
   return (
-    <section className="team section">
+    <section className="team section" id="about">
       <div className="container">
         <div className="team-group">
           <div className="team-head">
