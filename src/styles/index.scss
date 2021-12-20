@@ -1,14 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
-@import "../styles/Header/Header.css";
+
+// @import "../styles/Header/Header.css";
+// @import "../styles/Content/Hero.css";
+// @import "../styles/Content//Abilities/Abilities.css";
+// @import "../styles/Content//Banner/Banner.css";
+// @import "../styles/Content//Approach/Approach.css";
+// @import "../styles/Content//Projects/Projects.css";
+// @import "../styles/Content//Team/Team.css";
+// @import "../styles/Content//Rating/Rating.css";
+// @import "../styles/Content//Contact/Contact.css";
+// @import "../styles/Footer//Footer.css";
+
+@import "../styles/Header/Header.scss";
 @import "../styles/Content/Hero.css";
-@import "../styles/Content//Abilities/Abilities.css";
-@import "../styles/Content//Banner/Banner.css";
-@import "../styles/Content//Approach/Approach.css";
-@import "../styles/Content//Projects/Projects.css";
-@import "../styles/Content//Team/Team.css";
-@import "../styles/Content//Rating/Rating.css";
-@import "../styles/Content//Contact/Contact.css";
-@import "../styles/Footer//Footer.css";
+@import "../styles/Content//Abilities/Abilities.scss";
+@import "../styles/Content//Banner/Banner.scss";
+@import "../styles/Content//Approach/Approach.scss";
+@import "../styles/Content//Projects/Projects.scss";
+@import "../styles/Content//Team/Team.scss";
+@import "../styles/Content//Rating/Rating.scss";
+@import "../styles/Content//Contact/Contact.scss";
+@import "../styles/Footer//Footer.scss";
 
 * {
   box-sizing: border-box;
