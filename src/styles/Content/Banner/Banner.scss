@@ -1,0 +1,55 @@
+.banner-group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 0 20px;
+
+  .banner-title {
+    font-size: 120px;
+    line-height: 120%;
+    text-transform: uppercase;
+
+    span {
+      display: block;
+    }
+  }
+
+  .banner-img {
+    line-height: 0;
+    overflow: hidden;
+
+    &:nth-last-child(2) {
+      img {
+        height: 9vw;
+        width: auto;
+      }
+    }
+
+    img {
+      width: 280px;
+      height: auto;
+      transform: scale(1.3);
+    }
+  }
+}
+
+.banner-line {
+  position: relative;
+  padding: 31px 0;
+  overflow: hidden;
+
+  .banner-animate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s transform linear;
+
+    img {
+      margin-right: 60px;
+      width: 130px;
+    }
+  }
+}

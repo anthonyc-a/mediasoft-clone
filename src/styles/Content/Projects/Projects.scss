@@ -1,0 +1,68 @@
+.project-list {
+  .project-wrap {
+    padding: 40px 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    .project-name {
+      font-size: 22px;
+      line-height: 33px;
+      padding-right: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      width: calc(100% / 3);
+      overflow: hidden;
+    }
+
+    .project-type {
+      font-size: 16px;
+      line-height: 21px;
+      width: 240px;
+      flex-shrink: 0;
+      margin-right: auto;
+    }
+
+    .project-device {
+      width: calc(100% / 3);
+      font-size: 16px;
+      line-height: 21px;
+      color: #e7e7e7;
+    }
+  }
+
+  .project-content {
+    display: block;
+    width: calc(100% - (100% / 3));
+    margin-left: auto;
+
+    .project-lang {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 500;
+    }
+
+    p {
+      margin: 0 0 20px;
+      font-size: 16px;
+      line-height: 21px;
+    }
+
+    ul {
+      margin: 0 0 20px;
+      padding: 0 0 0 40px;
+      list-style-type: disc;
+
+      ::marker {
+          color: #fff;
+      }
+
+      li {
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+  }
+}

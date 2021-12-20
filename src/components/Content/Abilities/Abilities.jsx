@@ -21,8 +21,6 @@ const Abilities = () => {
     setHeightEl(`${refHeight.current.scrollHeight}px`);
   }, []);
 
-  console.log(heightEl);
-
   const abilityLoop = (item) => {
     var listItems = [];
     for (var i = 0; i < item.abilityList.length; i++) {
@@ -40,9 +38,9 @@ const Abilities = () => {
   };
 
   return (
-    <section className="ability section">
+    <section className="ability section" id="services">
       <div className="container">
-        <div className="ability-header">
+        <div className="section-header">
           <span>our</span> capabilities
         </div>
         <ul className="ability-list">
@@ -53,7 +51,7 @@ const Abilities = () => {
               }}
               key={i}
             >
-              <Line />
+              <Line type="line" />
               <div className="ability-wrap">
                 <div className="ability-panel-left">
                   <div
@@ -73,7 +71,7 @@ const Abilities = () => {
                 </div>
                 <div
                   className={
-                    selected === i ? "ability-close active" : "ability-close"
+                    selected === i ? "item-close active" : "item-close"
                   }
                 >
                   <img src={CrossSVG} alt="Close Item" />
@@ -103,7 +101,7 @@ const Abilities = () => {
             </li>
           ))}
         </ul>
-        <Line />
+        <Line type="line" />
       </div>
     </section>
   );
