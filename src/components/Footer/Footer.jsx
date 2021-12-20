@@ -34,16 +34,16 @@ const Footer = () => {
                 <a href="mailto:info@mediasoft.team">info@mediasoft.team</a>
               </div>
               <div className="footer-social">
-                <a href="https://www.facebook.com/msoft.team/">
+                <a href="https://www.facebook.com/msoft.team/" target="_blank">
                   <img src={social1} alt="facebook" />
                 </a>
-                <a href="https://www.instagram.com/mediasoft.team/">
+                <a href="https://www.instagram.com/mediasoft.team/" target="_blank">
                   <img src={social2} alt="instagram" />
                 </a>
-                <a href="https://vk.com/mediasoft.team">
+                <a href="https://vk.com/mediasoft.team" target="_blank">
                   <img src={social3} alt="vk" />
                 </a>
-                <a href="https://www.linkedin.com/company/10541419/">
+                <a href="https://www.linkedin.com/company/10541419/" target="_blank">
                   <img src={social4} alt="linkedin" />
                 </a>
               </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           <a href="/">© mediasoft.team | 2021</a>
           <span>
             Site made by design partners{" "}
-            <a href="https://www.uprock.ru/">UPROCK</a>
+            <a href="https://www.uprock.ru/" target="_blank">UPROCK</a>
           </span>
         </div>
       </div>
