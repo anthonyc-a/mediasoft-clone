@@ -1,0 +1,206 @@
+.ability-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.ability-header span {
+  color: #0bcf6b;
+}
+
+.ability-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px 0 31px;
+  background-color: #070707;
+  cursor: pointer !important;
+}
+
+.ability-wrap .ability-panel-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  width: 47%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.ability-wrap .ability-panel-left .ability-title {
+  position: relative;
+  display: inline-block;
+  color: #0bcf6b;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 19px;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.ability-wrap .ability-panel-left .ability-title.active {
+  -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+}
+
+.ability-wrap .ability-panel-left .ability-title.active::before, .ability-wrap .ability-panel-left .ability-title.active::after {
+  opacity: 1;
+}
+
+.ability-wrap .ability-panel-left .ability-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  width: 7px;
+  height: 18px;
+  background-image: url(https://mediasoft.team/assets/images/2021/quote-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  opacity: 0;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.ability-wrap .ability-panel-left .ability-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  width: 7px;
+  height: 18px;
+  background-image: url(https://mediasoft.team/assets/images/2021/quote-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  opacity: 0;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.ability-wrap .ability-panel-left .ability-title span {
+  color: #fff;
+}
+
+.ability-wrap .ability-panel-left .ability-title span strong {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ability-wrap .ability-panel-right {
+  position: absolute;
+  top: 32px;
+  left: 47%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ability-wrap .ability-panel-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ability-wrap .ability-panel-right ul li {
+  margin-right: 31px;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.ability-wrap .ability-close {
+  position: absolute;
+  top: 32px;
+  right: 0;
+}
+
+.ability-wrap .ability-close img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.ability-wrap .ability-close.active img {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.accordion-toggle {
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.accordion-toggle.animated {
+  opacity: 1;
+}
+
+.accordion-toggle .item-inner {
+  padding: 30px 0 31px;
+  pointer-events: none;
+}
+
+.accordion-toggle .item-inner .ability-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 53%;
+  margin-left: auto;
+  padding-top: 30px;
+  border-top: calc((1) * (100vw / 1920)) solid #373737;
+}
+
+.accordion-toggle .item-inner .ability-service .ability-name {
+  font-size: 20px;
+  width: 160px;
+  line-height: 85%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  text-transform: uppercase;
+}
+
+.accordion-toggle .item-inner .ability-service ul {
+  list-style: square;
+}
+
+.accordion-toggle .item-inner .ability-service ul li {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 140%;
+}
+/*# sourceMappingURL=Abilities.css.map */
